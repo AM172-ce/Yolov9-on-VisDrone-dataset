@@ -30,7 +30,7 @@ This code mounts Google Drive on Colab to enable saving model outputs directly t
 
 - Installing Dependencies
 
-Required library installation. In this section, to download the output file through the share with me section of the drive. which is due to GPU limitations; We had to keep practicing between multiple Google accounts. For this purpose, in this section, the half-finished file of the previous account can be downloaded again in the notebook of the new account.
+Required library installation. In this section, to download the output file through the "Share with Me" section of the drive. which is due to GPU limitations; We had to resume training between multiple Google accounts. For this purpose, in this section, the half-finished file of the previous account can be downloaded again in the notebook of the new account (by its ID in the drive).
 
 ```python
 !pip install -U -q Pydrive2
