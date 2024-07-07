@@ -13,7 +13,7 @@ Professor: [Dr. Afsharchi](http://cv.znu.ac.ir/afsharchim/)
 
 #### Overview
 
-This report details the steps taken to train the model (YOLOv9) for object detection, using pre-trained weights and training with random weights. This project includes setting up the environment, downloading the necessary dependencies, preparing the data set and implementing the training process.
+This report details the steps taken to train the model (YOLOv9) for object detection, using pre-trained weights and training with random weights. This project includes setting up the environment, downloading the necessary dependencies, preparing the dataset, and implementing the training process.
 
 ## 1. Setting Up the Environment
 
