@@ -2,13 +2,16 @@
 This a simple comparison and benefits of the pre-trained weights model vs the random weights model
 
 
-##### Group members:
+##### Project members:
 1. [Amirmehdi](https://github.com/AM172-ce)
 2. [mahyar6pari](https://github.com/mahyar6pari)
 
-The Second project of Artificial Intelligence spring 2024
-
+The Project of Artificial Intelligence field - spring - 2024<br>
+Computer Engineering, University of Zanjan, Zanjan, Iran<br>
 Professor: [Dr. Afsharchi](http://cv.znu.ac.ir/afsharchim/)
+
+---
+
 ### Implementation report: YOLOv9 model training
 
 #### Overview
