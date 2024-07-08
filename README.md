@@ -3,8 +3,8 @@ This a simple comparison and benefits of the pre-trained weights model vs the ra
 
 
 ##### Group members:
-1. https://github.com/AM172-ce
-2. https://github.com/mahyar6pari
+1. [Amirmehdi](https://github.com/AM172-ce)
+2. [mahyar6pari](https://github.com/mahyar6pari)
 
 The Second project of Artificial Intelligence spring 2024
 
