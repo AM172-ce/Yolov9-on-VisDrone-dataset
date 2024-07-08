@@ -122,13 +122,9 @@ os.makedirs(dataset_dir, exist_ok=True)
 
 # Download the dataset files
 !wget -q --show-progress -O {dataset_dir}/VisDrone2019-DET-train.zip 'https://github.com/ultralytics/yolov5/releases/download/v1.0/VisDrone2019-DET-train.zip '
-
 !wget -q --show-progress -O {dataset_dir}/VisDrone2019-DET-val.zip 'https://github.com/ultralytics/yolov5/releases/download/v1.0/VisDrone2019-DET-val.zip '
-
 !wget -q --show-progress -O {dataset_dir}/VisDrone2019-DET-test-dev.zip 'https://github.com/ultralytics/yolov5/releases/download/v1.0/VisDrone2019-DET-test -dev.zip'
-
 !wget -q --show-progress -O {dataset_dir}/VisDrone2019-DET-test-challenge.zip 'https://github.com/ultralytics/yolov5/releases/download/v1.0/VisDrone2019-DET-test -challenge.zip'
-
 !wget -q --show-progress -O {dataset_dir}/VisDrone2019-VID-test-dev.zip 'https://drive.usercontent.google.com/download?id=1-BEq--FcjshTF1UwUabby_LHhYj41os5&export=download&authuser= 2&confirm=t&uuid=7fc409c3-d13d-4090-b9e9-fc3ac9f1c32f&at=APZUnTW5wbsPMh4woDuW_HNY4uFj%3A1720181545143'
 ```
 
@@ -281,19 +277,15 @@ This command initiates the training of a YOLOv9 model on the VisDrone dataset wi
 from IPython. display import Image
 Image(filename=f"/content/drive/MyDrive/yolov9_results/visdrone_experiment4/results.png", width=1000)
 ```
-<picture>
-        <source media="(min-width: 760px)" srcset="./yolov9_results/visdrone_experiment4/results.png">
-        <img src="./yolov9_results/visdrone_experiment4/results.png" alt="result image">
-</picture>
+![image](https://github.com/AM172-ce/Yolov9-on-VisDrone-dataset/assets/126471636/4af8eaa5-5533-4aab-8264-e2e34b544697)
+
   
 ```python
 from IPython. display import Image
 Image(filename=f"/content/drive/MyDrive/yolov9_results/visdrone_experiment4/confusion_matrix.png", width=1000)
 ```
-<picture>
-        <source media="(min-width: 760px)" srcset="./yolov9_results/visdrone_experiment4/confusion_matrix.png">
-        <img src="./yolov9_results/visdrone_experiment4/confusion_matrix.png" alt="confusion_matrix image">
-</picture>
+![image](https://github.com/AM172-ce/Yolov9-on-VisDrone-dataset/assets/126471636/f63656e8-33b7-4d1c-a9ce-b396d4f9f1a9)
+
 
 
 #### The structure of the confusion matrix
@@ -330,10 +322,8 @@ The confusion matrix shows that while the model performs well on certain classes
 from IPython. display import Image
 Image(filename=f"/content/drive/MyDrive/yolov9_results/visdrone_experiment4/val_batch0_pred.jpg", width=1000)
 ```
-<picture>
-        <source media="(min-width: 760px)" srcset="./yolov9_results/visdrone_experiment4/val_batch0_pred.jpg">
-        <img src="./yolov9_results/visdrone_experiment4/val_batch0_pred.jpg" alt="batch0_pred image">
-</picture>
+![image](https://github.com/AM172-ce/Yolov9-on-VisDrone-dataset/assets/126471636/f5803309-64cd-45da-bc2c-a772a8963c87)
+
 
 ---
 
@@ -424,10 +414,8 @@ print(f"Video saved at: {output_path}")
 from IPython. display import Image
 Image(filename=f"/content/drive/MyDrive/yolov9_results_with_weight/visdrone_experiment_gelan-c/results.png", width=1000)
 ```
-<picture>
-        <source media="(min-width: 760px)" srcset="./yolov9_results_with_weight/visdrone_experiment_gelan-c/results.png">
-        <img src="./yolov9_results_with_weight/visdrone_experiment_gelan-c/results.png" alt="result image">
-</picture>
+![image](https://github.com/AM172-ce/Yolov9-on-VisDrone-dataset/assets/126471636/bf5467ab-d290-4ea2-b67b-8687abb4c5ad)
+
 
 
 ### Comparison of Model Training Results: Random Weights vs. Pre-trained Weights
@@ -439,10 +427,8 @@ Image(filename=f"/content/drive/MyDrive/yolov9_results_with_weight/visdrone_expe
 from IPython. display import Image
 Image(filename=f"/content/drive/MyDrive/yolov9_results_with_weight/visdrone_experiment_gelan-c/confusion_matrix.png", width=1000)
 ```
-<picture>
-        <source media="(min-width: 760px)" srcset="./yolov9_results_with_weight/visdrone_experiment_gelan-c/confusion_matrix.png">
-        <img src="./yolov9_results_with_weight/visdrone_experiment_gelan-c/confusion_matrix.png" alt="confusion_matrix image">
-</picture>
+![image](https://github.com/AM172-ce/Yolov9-on-VisDrone-dataset/assets/126471636/bd1f9762-14c1-43b2-abcf-22ecf68825ce)
+
 
 ### Comparison of the two confusion matrix:
 
@@ -463,10 +449,8 @@ Overall, the confusion matrix with pre-trained weights shows a significant impro
 from IPython. display import Image
 Image(filename=f"/content/drive/MyDrive/yolov9_results_with_weight/visdrone_experiment_gelan-c/val_batch0_pred.jpg", width=1000)
 ```
-<picture>
-        <source media="(min-width: 760px)" srcset="./yolov9_results_with_weight/visdrone_experiment_gelan-c/val_batch0_pred.jpg">
-        <img src="./yolov9_results_with_weight/visdrone_experiment_gelan-c/val_batch0_pred.jpg" alt="batch0_pred image">
-</picture>
+![image](https://github.com/AM172-ce/Yolov9-on-VisDrone-dataset/assets/126471636/3e20e434-bd0e-4faf-a613-39356e92f8e8)
+
 
 
 ### 4. Detect
