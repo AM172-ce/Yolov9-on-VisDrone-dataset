@@ -1,3 +1,3 @@
-1. yolov9 model with random weights | [GoogleDrive](https://drive.google.com/drive/folders/1UUZOx786R2Mpi3KzVq8_CJGC3f4DBWvR?usp=sharing)
-2. yolov9 model with pre-trained weights | [GoogleDrive](https://drive.google.com/drive/folders/10qtS-_UmQgsGEBLyiBG1ygCyI7pFDPIO?usp=sharing)
-3. project Colab notebook | [Open in Colab](https://colab.research.google.com/drive/1ZrK-2UGYDfznbnucCm_-TbqJ4kDJUIoT?usp=sharing)
+1. yolov9 model with random weights <img src="https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png" alt="GoogleDrive" width="23" align="top"/> [GoogleDrive](https://drive.google.com/drive/folders/1UUZOx786R2Mpi3KzVq8_CJGC3f4DBWvR?usp=sharing)
+2. yolov9 model with pre-trained weights <img src="https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png" alt="GoogleDrive" width="23" align="top"/> [GoogleDrive](https://drive.google.com/drive/folders/10qtS-_UmQgsGEBLyiBG1ygCyI7pFDPIO?usp=sharing)
+3. project Colab notebook [![Open Notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ZrK-2UGYDfznbnucCm_-TbqJ4kDJUIoT?usp=sharing)
